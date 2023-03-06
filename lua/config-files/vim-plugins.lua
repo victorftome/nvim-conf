@@ -53,47 +53,6 @@ return require ('packer').startup({
         use {
             'glepnir/dashboard-nvim',
             event = 'VimEnter',
-            config = function()
-                require('dashboard').setup {
-                    theme = 'doom',
-                    config = {
-                        header = {
-                            [[⠀⠀⠀⠀⠀⣠⡢⠗⠺⡤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
-                            [[⠀⢰⠙⠉⠛⠊⠀⠀⢀⣇⠀⠀⠀⣤⢴⣀⣠⠀⠀⠀⠀⠀⠀]],
-                            [[⠀⠈⠳⣦⢤⡤⠀⢠⣞⠂⠀⣠⡠⢧⡈⢁⣬⢯⣧⡂⠀⠀⠀]],
-                            [[⠀⠀⠀⠀⠉⠒⢤⠯⠀⡀⢴⢻⡇⠀⡽⠉⠀⣿⣛⣷⡤⠀⠀]],
-                            [[⠀⠀⠀⠀⠀⣄⣮⣶⣶⡭⢽⣯⡯⢯⣷⣾⣤⣛⢛⢻⣷⠂⠀]],
-                            [[⠀⠀⠀⣐⣾⣿⢟⡩⠤⠓⠚⣿⡗⠒⠦⢭⡛⢿⣷⣼⣿⡀⠀]],
-                            [[⠀⠀⠀⡜⣻⠟⠙⠀⠀⠀⠀⣿⡇⠀⠀⠀⠈⠿⣏⢹⣃⠀⠀]],
-                            [[⠀⠀⣸⣥⡞⢴⢋⣙⢲⣄⠀⣟⡇⢠⣶⢏⡙⣦⣹⣵⣣⠄⠀]],
-                            [[⠀⠀⢽⠛⢸⠘⠿⣷⣿⢿⠀⡙⡇⢺⣿⣾⡿⠟⡰⠙⡟⠂⠀]],
-                            [[⠀⢀⡞⠀⠀⠈⠁⢀⠈⠁⠀⣁⠁⠈⠁⢰⠀⠉⠀⠀⢸⡡⠀]],
-                            [[⢬⠏⠧⠀⠀⠀⠀⠈⠓⠶⠊⠀⠙⠶⠒⠁⠀⠀⠀⠀⡈⡜⡖]],
-                            [[⣞⠴⢒⠆⢐⣢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⣒⠸⠒⠷⣸]],
-                        },
-                        center = {
-                            {
-                                icon = '󰈞',
-                                icon_hl = 'Title',
-                                desc = 'Find Files',
-                                desc_hl = 'String',
-                                key = 'f',
-                                keymap = 'SPC f',
-                                key_hl = 'Number',
-                                action = 'Telescope find_files',
-                            },
-                            {
-                                icon = '',
-                                desc = 'Recent Files',
-                                key = 'r',
-                                keymap = 'SPC r',
-                                action = 'Telescope oldfiles',
-                            },
-                        },
-                        footer = {'...'}
-                    }
-                }
-            end,
             requires = {'nvim-tree/nvim-web-devicons'}
         }
 
