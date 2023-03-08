@@ -49,12 +49,5 @@ return require ('packer').startup({
                 'f3fora/cmp-spell', 'hrsh7th/cmp-emoji'
             }
         }
-
-        use {
-            'glepnir/dashboard-nvim',
-            event = 'VimEnter',
-            requires = {'nvim-tree/nvim-web-devicons'}
-        }
-
     end
 })
