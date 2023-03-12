@@ -3,7 +3,7 @@ require('config-files.vim-plugins')
 
 -- Treesitter
 require'nvim-treesitter.configs'.setup {
-    ensure_installed = {"c", "lua", "help", "query", "sql", "rust", "bash"},
+    ensure_installed = {"c", "lua", "help", "query", "sql", "rust", "bash", "vim"},
     sync_install = false,
     auto_install = true,
     highlight = {
