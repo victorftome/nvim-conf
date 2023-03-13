@@ -54,5 +54,13 @@ return require ('packer').startup({
             'romgrk/barbar.nvim',
             requires = 'nvim-web-devicons'
         }
+
+        use {
+            "akinsho/toggleterm.nvim",
+            tag = '*',
+            config = function()
+                require("toggleterm").setup()
+            end
+        }
     end
 })
