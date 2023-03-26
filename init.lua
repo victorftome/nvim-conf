@@ -9,6 +9,7 @@ require("treesitter-config")
 require("vgit-config")
 require("vim-config")
 require("null-ls-config")
+require("barbar-config")
 
 -- Theme
-require('catppuccin').load()
+require("catppuccin").load()
