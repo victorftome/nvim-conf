@@ -68,6 +68,6 @@ return require('packer').startup({function(use)
         config = function()
             require("null-ls").setup()
         end,
-        requires = { "nvim-lua/plenary.nvim" },
+        requires = {"nvim-lua/plenary.nvim"}
     }
 end})
