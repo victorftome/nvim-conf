@@ -21,11 +21,11 @@ o.scrolloff = 8
 o.number = true
 o.numberwidth = 5
 o.relativenumber = true
-o.signcolumn = 'yes:2'
+o.signcolumn = "yes:2"
 o.cursorline = true
 
 -- Better editing experience
-o.expandtab = true
+o.noexpandtab = true
 -- o.smarttab = true
 o.cindent = true
 -- o.autoindent = true
@@ -35,12 +35,12 @@ o.tabstop = 4
 o.shiftwidth = 0
 o.softtabstop = -1 -- If negative, shiftwidth value is used
 o.list = true
-o.listchars = 'trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂'
+o.listchars = "trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂"
 -- o.listchars = 'eol:¬,space:·,lead: ,trail:·,nbsp:◇,tab:→-,extends:▸,precedes:◂,multispace:···⬝,leadmultispace:│   ,'
 -- o.formatoptions = 'qrn1'
 
 -- Makes neovim and host OS clipboard play nicely with each other
-o.clipboard = 'unnamedplus'
+o.clipboard = "unnamedplus"
 
 -- Case insensitive searching UNLESS /C or capital in search
 o.ignorecase = true
@@ -63,10 +63,10 @@ o.splitright = true
 o.splitbelow = true
 
 -- Preserve view while jumping
-o.jumpoptions = 'view'
+o.jumpoptions = "view"
 
 -- Stable buffer content on window open/close events.
-o.splitkeep = 'screen'
+o.splitkeep = "screen"
 
 -- Better folds (don't fold by default)
 -- o.foldmethod = 'indent'
@@ -75,6 +75,5 @@ o.splitkeep = 'screen'
 -- o.foldminlines = 1
 
 -- Map <leader> to space
-g.mapleader = ' '
-g.maplocalleader = ' '
-
+g.mapleader = " "
+g.maplocalleader = " "
