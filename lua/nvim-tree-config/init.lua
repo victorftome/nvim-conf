@@ -4,3 +4,6 @@ require("nvim-tree").setup({
         group_empty = true
     }
 })
+
+-- keymap
+vim.keymap.set('n', '<C-s>', ':NvimTreeToggle<CR>', {})
