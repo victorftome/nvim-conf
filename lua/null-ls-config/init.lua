@@ -11,7 +11,7 @@ local sources = {
 	formatting.rustfmt,
 	formatting.stylua,
 	formatting.autopep8,
-	formatting.beautysh,
+	formatting.beautysh.with({ extra_args = { "--tab" } }),
 }
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
