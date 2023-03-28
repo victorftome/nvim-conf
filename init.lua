@@ -10,6 +10,7 @@ require("vgit-config")
 require("vim-config")
 require("null-ls-config")
 require("barbar-config")
+require("nvim-comment-config")
 
 -- Theme
 require("catppuccin").load()

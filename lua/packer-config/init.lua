@@ -80,8 +80,8 @@ return require("packer").startup({
 			requires = { "nvim-lua/plenary.nvim" },
 		})
 
-		use({
-			"folke/zen-mode.nvim",
-		})
+		use("folke/zen-mode.nvim")
+
+		use("terrortylor/nvim-comment")
 	end,
 })
