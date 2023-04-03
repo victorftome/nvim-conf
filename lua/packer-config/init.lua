@@ -67,16 +67,10 @@ return require("packer").startup({
 		use({
 			"akinsho/toggleterm.nvim",
 			tag = "*",
-			config = function()
-				require("toggleterm").setup()
-			end,
 		})
 
 		use({
 			"jose-elias-alvarez/null-ls.nvim",
-			config = function()
-				require("null-ls").setup()
-			end,
 			requires = { "nvim-lua/plenary.nvim" },
 		})
 
