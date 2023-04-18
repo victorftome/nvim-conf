@@ -1,6 +1,7 @@
 require("packer-config")
 require("cmp-config")
 require("lspconfig-config")
+require("bufferline-config")
 require("lualine-config")
 require("nvim-tree-config")
 require("telescope-config")
