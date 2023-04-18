@@ -2,14 +2,7 @@ local separator_color_selected = "#f38ba8"
 
 require("bufferline").setup({
 	options = {
-		indicator = {
-			style = "underline",
-		},
-	},
-	highlights = {
-		indicator_selected = {
-			fg = separator_color_selected,
-		},
+		separator_style = { "<>", "<>" },
 	},
 })
 
