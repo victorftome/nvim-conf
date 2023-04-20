@@ -13,6 +13,7 @@ require("nvim-treesitter.configs").setup({
 		"python",
 		"make",
 		"cmake",
+		"java",
 	},
 	sync_install = false,
 	auto_install = true,
