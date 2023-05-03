@@ -14,6 +14,7 @@ require("nvim-treesitter.configs").setup({
 		"make",
 		"cmake",
 		"java",
+		"javascript",
 	},
 	sync_install = false,
 	auto_install = true,
