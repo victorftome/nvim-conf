@@ -16,6 +16,7 @@ local sources = {
 	formatting.stylua,
 	formatting.autopep8,
 	formatting.beautysh.with({ extra_args = { "--tab" } }),
+	formatting.eslint,
 }
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
