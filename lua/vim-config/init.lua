@@ -73,6 +73,14 @@ o.splitkeep = "screen"
 -- o.foldlevelstart = 99
 -- o.foldnestmax = 3
 -- o.foldminlines = 1
+--
+
+vim.cmd([[
+	augroup change_cursor
+		au!
+		au ExitPre * :set guicursor=a:ver90,a:blinkon750
+	augroup END
+]])
 
 -- Map <leader> to space
 g.mapleader = " "
