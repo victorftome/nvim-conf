@@ -8,11 +8,6 @@ local sources = {
 			"--style={BasedOnStyle: Microsoft, UseTab: Always, IndentWidth: 4, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0}",
 		},
 	}),
-	formatting.rustfmt.with({
-		extra_args = {
-			"--config hard_tabs=true",
-		},
-	}),
 	formatting.stylua,
 	formatting.autopep8,
 	formatting.beautysh.with({ extra_args = { "--tab" } }),

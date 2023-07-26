@@ -11,6 +11,7 @@ require("vgit-config")
 require("vim-config")
 require("null-ls-config")
 require("nvim-comment-config")
+require("rust-tools-plugins")
 
 -- Theme
 require("catppuccin").load()

@@ -85,3 +85,5 @@ vim.cmd([[
 -- Map <leader> to space
 g.mapleader = " "
 g.maplocalleader = " "
+
+g.rustfmt_autosave = 1
