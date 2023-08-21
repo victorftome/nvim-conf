@@ -5,7 +5,3 @@ require("bufferline").setup({
 		separator_style = { "<>", "<>" },
 	},
 })
-
-vim.keymap.set("n", "e", ":bnext<CR>", {})
-vim.keymap.set("n", "q", ":bprev<CR>", {})
-vim.keymap.set("n", "w", ":bdelete<CR>", {})
