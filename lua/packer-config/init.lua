@@ -78,5 +78,7 @@ return require("packer").startup({
 		use("folke/zen-mode.nvim")
 
 		use("terrortylor/nvim-comment")
+
+		use("justinmk/vim-sneak")
 	end,
 })
