@@ -12,3 +12,4 @@ map("n", "w", ":bdelete<CR>", { noremap = true, silent = true })
 map({ "n", "v" }, "t", ":CommentToggle<CR>", { noremap = true, silent = true })
 
 map("n", "<C-s>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+map("n", "<Tab>", ":NvimTreeFocus<CR>", { noremap = true, silent = true })
