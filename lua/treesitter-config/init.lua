@@ -16,6 +16,7 @@ require("nvim-treesitter.configs").setup({
 		"java",
 		"javascript",
 		"ada",
+		"html",
 	},
 	sync_install = false,
 	auto_install = true,
