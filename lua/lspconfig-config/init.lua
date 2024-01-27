@@ -1,5 +1,5 @@
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
-local langservers = { "clangd", "pyright", "bashls", "tsserver" }
+local langservers = { "clangd", "pyright", "bashls", "tsserver", "rust_analyzer" }
 
 for _, server in ipairs(langservers) do
 	require("lspconfig")[server].setup({

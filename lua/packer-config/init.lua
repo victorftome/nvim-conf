@@ -44,8 +44,6 @@ return require("packer").startup({
 
 		use("neovim/nvim-lspconfig")
 
-		use("simrat39/rust-tools.nvim")
-
 		use("rust-lang/rust.vim")
 
 		use({
