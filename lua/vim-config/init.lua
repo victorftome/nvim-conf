@@ -24,8 +24,6 @@ o.relativenumber = true
 o.signcolumn = "yes:2"
 o.cursorline = true
 
--- Better editing experience
-o.noexpandtab = true
 -- o.smarttab = true
 o.cindent = true
 -- o.autoindent = true
