@@ -61,7 +61,7 @@ return require("packer").startup({
 			},
 		})
 
-		use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
+		use({ "akinsho/bufferline.nvim", requires = "nvim-tree/nvim-web-devicons" })
 
 		use({
 			"akinsho/toggleterm.nvim",
