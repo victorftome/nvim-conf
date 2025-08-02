@@ -9,7 +9,8 @@ require("toggleterm-config")
 require("treesitter-config")
 require("vgit-config")
 require("vim-config")
-require("null-ls-config")
+-- Deprecated
+-- require("null-ls-config")
 require("nvim-comment-config")
 require("keymaps-config")
 

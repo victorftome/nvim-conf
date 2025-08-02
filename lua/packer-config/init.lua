@@ -68,10 +68,11 @@ return require("packer").startup({
 			tag = "*",
 		})
 
-		use({
-			"jose-elias-alvarez/null-ls.nvim",
-			requires = { "nvim-lua/plenary.nvim" },
-		})
+		-- Deprecated
+		-- use({
+		-- 	"jose-elias-alvarez/null-ls.nvim",
+		-- 	requires = { "nvim-lua/plenary.nvim" },
+		-- })
 
 		use("folke/zen-mode.nvim")
 
